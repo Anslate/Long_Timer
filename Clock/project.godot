@@ -1,0 +1,41 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=4
+
+[application]
+
+config/name="Clock"
+run/main_scene="res://Clock.tscn"
+run/disable_stdout=true
+run/disable_stderr=true
+boot_splash/image="res://long timer.png"
+boot_splash/fullsize=false
+boot_splash/use_filter=false
+boot_splash/bg_color=Color( 1, 1, 1, 1 )
+config/icon="res://long timer.png"
+config/windows_native_icon="res://icon.ico"
+config/auto_accept_quit=false
+
+[display]
+
+window/size/width=620
+window/size/height=140
+window/size/resizable=false
+
+[editor]
+
+main_run_args="--addr D:\\Users\\Anslate\\Documents\\Timer\\Timer.json"
+
+[physics]
+
+common/enable_pause_aware_picking=true
+
+[rendering]
+
+environment/default_environment="res://default_env.tres"
